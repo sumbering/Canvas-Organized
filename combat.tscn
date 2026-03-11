@@ -6,7 +6,7 @@
 [ext_resource type="Script" path="res://unMagicBtn.gd" id="4_gwxrf"]
 [ext_resource type="Script" path="res://magicBtn.gd" id="5_s8h3r"]
 [ext_resource type="Script" path="res://attack.gd" id="6_bs7xg"]
-[ext_resource type="Script" path="res://player_stats.gd" id="7_psfgy"]
+[ext_resource type="Script" uid="uid://c3l038jg5txyh" path="res://player_stats.gd" id="7_psfgy"]
 [ext_resource type="Script" path="res://enemy_stats.gd" id="8_ep83l"]
 [ext_resource type="Script" path="res://items.gd" id="9_bshfd"]
 [ext_resource type="Script" path="res://itemBtn.gd" id="10_gmpjy"]

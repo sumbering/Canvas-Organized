@@ -26,6 +26,7 @@ var vulnerable = 0
 var weakened = 0
 var active = "default"
 func haveTurn():
+	buttons.hide() 
 	if !lock.locked:
 		dice_rect.show()
 		await dice.buttonPressed

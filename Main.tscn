@@ -1,10 +1,13 @@
 [gd_scene format=3 uid="uid://drgndmbgpjgyk"]
 
-[ext_resource type="PackedScene" uid="uid://b8snpdec3m88v" path="res://combat.tscn" id="1_glv2v"]
+[ext_resource type="PackedScene" uid="uid://dpj03ra7v7moh" path="res://combat.tscn" id="1_glv2v"]
 
 [node name="Node2D" type="Node2D" unique_id=219067130]
 
-[node name="Combat" parent="." unique_id=472120450 instance=ExtResource("1_glv2v")]
+[node name="Overworld" type="Node2D" parent="." unique_id=1710442509]
 
-[node name="Camera2D" type="Camera2D" parent="Combat" unique_id=1774852637]
-position = Vector2(575, 325)
+[node name="sideOn" type="Node2D" parent="Overworld" unique_id=574671401]
+
+[node name="Combat" parent="Overworld/sideOn" unique_id=472120450 instance=ExtResource("1_glv2v")]
+
+[node name="Camera2D" type="Camera2D" parent="Overworld" unique_id=1774852637]
