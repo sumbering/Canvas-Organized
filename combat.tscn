@@ -1,37 +1,24 @@
-<<<<<<< Updated upstream
-[gd_scene format=3 uid="uid://b8snpdec3m88v"]
+[gd_scene format=3 uid="uid://eagcnhhe6xbk"]
 
-[ext_resource type="Script" path="res://logic.gd" id="1_emiek"]
+[ext_resource type="Script" uid="uid://dtx5jybuesrgv" path="res://logic.gd" id="1_emiek"]
 [ext_resource type="Theme" uid="uid://dn86y02omkr6x" path="res://textures/button.tres" id="2_mwu64"]
-=======
-[gd_scene format=3 uid="uid://bofp5jhgqeuv"]
-
-[ext_resource type="Script" path="res://logic.gd" id="1_emiek"]
-[ext_resource type="Theme" path="res://textures/button.tres" id="2_mwu64"]
->>>>>>> Stashed changes
-[ext_resource type="Script" path="res://spells.gd" id="3_3qp1m"]
-[ext_resource type="Script" path="res://unMagicBtn.gd" id="4_gwxrf"]
-[ext_resource type="Script" path="res://magicBtn.gd" id="5_s8h3r"]
-[ext_resource type="Script" path="res://attack.gd" id="6_bs7xg"]
-[ext_resource type="Script" path="res://player_stats.gd" id="7_psfgy"]
-[ext_resource type="Script" path="res://enemy_stats.gd" id="8_ep83l"]
-[ext_resource type="Script" path="res://items.gd" id="9_bshfd"]
-[ext_resource type="Script" path="res://itemBtn.gd" id="10_gmpjy"]
-[ext_resource type="Script" path="res://diceOpen.gd" id="11_f0o7t"]
-<<<<<<< Updated upstream
+[ext_resource type="Script" uid="uid://ddxodsa35wg1h" path="res://spells.gd" id="3_3qp1m"]
+[ext_resource type="Script" uid="uid://cc8hirh87s4mo" path="res://unMagicBtn.gd" id="4_gwxrf"]
+[ext_resource type="Script" uid="uid://don3rhvppm8kh" path="res://magicBtn.gd" id="5_s8h3r"]
+[ext_resource type="Script" uid="uid://cjewl2nhd0w8l" path="res://attack.gd" id="6_bs7xg"]
+[ext_resource type="Script" uid="uid://c3l038jg5txyh" path="res://player_stats.gd" id="7_psfgy"]
+[ext_resource type="Script" uid="uid://cflcoa0s80yy8" path="res://enemy_stats.gd" id="8_ep83l"]
+[ext_resource type="Script" uid="uid://in1satp5cyf8" path="res://items.gd" id="9_bshfd"]
+[ext_resource type="Script" uid="uid://bd3qwidtkenam" path="res://itemBtn.gd" id="10_gmpjy"]
+[ext_resource type="Script" uid="uid://bbkk2mye3ikyd" path="res://diceOpen.gd" id="11_f0o7t"]
 [ext_resource type="Texture2D" uid="uid://4bk1gta1g3v7" path="res://d20.png" id="12_tqlj7"]
-[ext_resource type="Script" path="res://lock.gd" id="13_eax3p"]
+[ext_resource type="Script" uid="uid://cpfxtehjckg5n" path="res://lock.gd" id="13_eax3p"]
 [ext_resource type="Texture2D" uid="uid://b0ldtb52o14t2" path="res://unlocked.png" id="14_spmlv"]
-=======
-[ext_resource type="Texture2D" path="res://d20.png" id="12_tqlj7"]
-[ext_resource type="Script" path="res://lock.gd" id="13_eax3p"]
-[ext_resource type="Texture2D" path="res://unlocked.png" id="14_spmlv"]
->>>>>>> Stashed changes
-[ext_resource type="Script" path="res://enemy_die.gd" id="15_8x2sr"]
-[ext_resource type="Script" path="res://dice.gd" id="16_i5m17"]
-[ext_resource type="Script" path="res://active_die.gd" id="17_d3edh"]
-[ext_resource type="Script" path="res://active_die_2.gd" id="18_u1lqs"]
-[ext_resource type="Script" path="res://active_die_3.gd" id="19_rdcqr"]
+[ext_resource type="Script" uid="uid://b3noy7u1nip7b" path="res://enemy_die.gd" id="15_8x2sr"]
+[ext_resource type="Script" uid="uid://b26mqfsahaovy" path="res://dice.gd" id="16_i5m17"]
+[ext_resource type="Script" uid="uid://1qyu67jgk0j4" path="res://active_die.gd" id="17_d3edh"]
+[ext_resource type="Script" uid="uid://bbtg3g06iuxjy" path="res://active_die_2.gd" id="18_u1lqs"]
+[ext_resource type="Script" uid="uid://dxvugncchbtgq" path="res://active_die_3.gd" id="19_rdcqr"]
 
 [node name="Control" type="Control" unique_id=472120450]
 layout_mode = 3
@@ -48,10 +35,6 @@ offset_left = 2.0
 offset_top = 413.0
 offset_right = 1152.0
 offset_bottom = 648.0
-<<<<<<< Updated upstream
-theme = ExtResource("2_mwu64")
-=======
->>>>>>> Stashed changes
 
 [node name="Panel" type="Panel" parent="buttons" unique_id=315275765]
 visible = false
@@ -299,10 +282,6 @@ offset_left = 1052.0
 offset_top = 147.0
 offset_right = 1157.0
 offset_bottom = 326.0
-<<<<<<< Updated upstream
-theme = ExtResource("2_mwu64")
-=======
->>>>>>> Stashed changes
 text = "20"
 script = ExtResource("11_f0o7t")
 
@@ -330,10 +309,6 @@ offset_left = -9.0
 offset_top = 154.0
 offset_right = 102.0
 offset_bottom = 322.0
-<<<<<<< Updated upstream
-theme = ExtResource("2_mwu64")
-=======
->>>>>>> Stashed changes
 script = ExtResource("15_8x2sr")
 
 [node name="Sprite2D" type="Sprite2D" parent="diceUI/enemyDie" unique_id=371261144]
