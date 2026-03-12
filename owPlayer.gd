@@ -8,6 +8,6 @@ var speed = 500
 func _process(delta: float) -> void:
 	pass
 func _physics_process(delta: float) -> void:
-	velocity = speed*Input.get_vector("left","right","up","down")
-	
-	move_and_slide()
+	if !side_on.visible:
+		velocity = speed*Input.get_vector("left","right","up","down")
+		move_and_slide()
